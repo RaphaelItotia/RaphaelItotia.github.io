@@ -115,37 +115,35 @@
 							<div id="success-message" style="display:none; color: green;">
                                                              Successfully submitted!
                                                         </div>
-                                                        <script>
-    // Event listener for form submission
-    document.getElementById("contact-form").addEventListener("submit", function(event) {
-        event.preventDefault();  // Prevent the default form submission
-
-        const form = event.target;
-        const formData = new FormData(form);
-
-        // Submit the form using fetch
-        fetch(form.action, {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => {
-            if (response.ok) {
-                // Show success message
-                document.getElementById("success-message").style.display = 'block';
-                form.reset();  // Optional: Reset the form after submission
-            } else {
-                // Handle error (optional)
-                alert('There was an error submitting the form. Please try again.');
-            }
-        })
-        .catch(error => {
-            console.error('Error submitting form:', error);
-            alert('There was an error submitting the form. Please try again.');
-        });
-    });
-</script>
-
-
+ 							<script>
+							    // Event listener for form submission
+							    document.getElementById("contact-form").addEventListener("submit", function(event) {
+							        event.preventDefault();  // Prevent the default form submission
+							
+							        const form = event.target;
+							        const formData = new FormData(form);
+							
+							        // Submit the form using fetch
+							        fetch(form.action, {
+							            method: 'POST',
+							            body: formData
+							        })
+							        .then(response => {
+							            if (response.ok) {
+							                // Show success message
+							                document.getElementById("success-message").style.display = 'block';
+							                form.reset();  // Optional: Reset the form after submission
+							            } else {
+							                // Handle error (optional)
+							                alert('There was an error submitting the form. Please try again.');
+							            }
+							        })
+							        .catch(error => {
+							            console.error('Error submitting form:', error);
+							            alert('There was an error submitting the form. Please try again.');
+							        });
+							    });
+							 </script>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
 									<li>

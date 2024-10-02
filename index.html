@@ -131,12 +131,15 @@
 							        .then(response => {
 							            if (response.ok) {
 							                // Show success message
-									console.log("Submitted successfully!")
 							                document.getElementById("success-message").style.display = 'block';
 							                form.reset();  // Optional: Reset the form after submission
-							            } 
+							            } else {
+									    alert('There was an error submitting the form');
+								    }
 							        })
-							        
+							        .catch(error => {
+									console.error('Error submitting form:', error);
+									alert('There was an error.');
 							    });
 							 </script>
 							<div class="col-4 col-12-small">

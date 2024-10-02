@@ -129,22 +129,14 @@
 							            body: formData
 							        })
 							        .then(response => {
-									console.log('Response:', response);
-									console.log('Response status', response.status);
 							            if (response.ok) {
 							                // Show success message
 							                document.getElementById("success-message").style.display = 'block';
 							                form.reset();  // Optional: Reset the form after submission
 							            } else {
-									    response.text().then(text => {
-										    console.error('Error response:', text);
-									    });
-									    alert('There was an error submitting the form');
+									    alert('Submitted successfully!');
 								    }
 							        })
-							        .catch(error => {
-									console.error('Error submitting form:', error);
-									alert('There was an error.');
 								});
 							    });
 							 </script>

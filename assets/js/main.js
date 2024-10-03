@@ -1,3 +1,25 @@
+ function openTab(tabName) {
+        // Hide all tab contents
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Remove the active class from all buttons
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the clicked tab's content and add the active class to the clicked button
+        document.getElementById(tabName).style.display = "block";
+        event.currentTarget.className += " active";
+    }
+
+    // Trigger the default tab to be clicked on page load
+    document.getElementById("defaultOpen").click();
+
 
 (function($) {
 

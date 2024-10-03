@@ -47,57 +47,6 @@ footer, header, hgroup, menu, nav, section {
 		border: none;
 		}
 
- .tab {
-            display: flex;
-            background-color: #f1f1f1;
-        }
-
-        .tab button {
-            background-color: #333;
-            color: white;
-            padding: 14px 20px;
-            width: 50%;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .tab button:hover {
-            background-color: #555;
-        }
-
-        .tab button.active {
-            background-color: #111;
-        }
-
-        /* Style the content */
-        .tab-content {
-            display: none;
-            padding: 20px;
-            border: 1px solid #ccc;
-            background-color: #f9f9f9;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-
-        /* Style for the skills and tools bubbles */
-        .skills-tools-box {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .skills-tools-box div {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            border-radius: 20px;
-            font-size: 14px;
-        }
-
-
 body {
 	line-height: 1;
 }

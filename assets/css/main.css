@@ -29,12 +29,6 @@ footer, header, hgroup, menu, nav, section {
     justify-content: center;
     gap: 15px;
 }
-.tools-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
 
 .skill {
     background-color: #333;

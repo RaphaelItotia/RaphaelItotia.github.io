@@ -24,28 +24,24 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 	.skills-container {
-		max-width: 1000px;
-		margin: 0  ;
-		padding: 0;
-		border-radius: 10px;
-		background-color: white;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
-		}
-		.skills-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 10px;
-		padding: 20px;
-		}
-		.skill {
-		background-color: #444; /* Dark grey skill button */
-		padding: 10px 15px;
-		border-radius: 40px;
-		color: #fff;
-		font-size: 14px;
-		white-space: nowrap;
-		border: none;
-		}
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.left div, .right div {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    text-align: center;
+}
 
 body {
 	line-height: 1;

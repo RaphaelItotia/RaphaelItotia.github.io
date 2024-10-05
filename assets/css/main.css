@@ -23,34 +23,37 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-/* General container for Skills and Tools */
-.skills-tools-container {
-    width: 100%;
-    padding: 20px;
+.skills-section {
+    text-align: center;
+    padding: 40px;
 }
 
-/* Headings for each section */
 h2 {
-    margin-bottom: 10px;
     color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-/* Skill and Tools Box Styles */
-.skills-content, .tools-content {
+.skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px; /* Add space between Skills and Tools sections */
+    justify-content: center;
+    gap: 15px;
 }
 
-.skill-box {
+.skill {
     background-color: #333;
-    color: white;
+    color: #fff;
     padding: 10px 20px;
-    border-radius: 20px;
-    text-align: center;
-    white-space: nowrap;
+    border-radius: 30px;
     font-size: 14px;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: #444;
 }
 
 

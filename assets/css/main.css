@@ -23,7 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-	.skills-container {
+.skills-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;

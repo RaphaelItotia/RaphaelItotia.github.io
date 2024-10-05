@@ -23,17 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-.skills-section {
-    text-align: center;
-    padding: 40px;
-}
-
-h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -55,8 +44,6 @@ h2 {
 .skill:hover {
     background-color: #444;
 }
-
-
 
 body {
 	line-height: 1;

@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
 }
 

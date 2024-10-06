@@ -58,7 +58,7 @@ h2 {
     float: right; /* This makes the image float to the right side of the text */
     margin-left: 15px; /* Adds some space between the image and the text */
     width: 300px; /* Adjust the image size */
-    height: 300px;
+    height: 400px;
 }
 
 .text {

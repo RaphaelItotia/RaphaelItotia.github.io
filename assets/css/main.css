@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 .image {
     float: right; /* This makes the image float to the right side of the text */
     margin-left: 15px; /* Adds some space between the image and the text */
-    width: 400px; /* Adjust the image size */
+    width: 300px; /* Adjust the image size */
 }
 
 .text {

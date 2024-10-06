@@ -23,6 +23,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.profile-container {
+    display: flex;
+    flex-direction: column; /* Stack the image and text vertically */
+    align-items: center; /* Center both image and text horizontally */
+    text-align: center; /* Center the text */
+}
+
+.profile-image {
+    width: 150px; /* Set the width of the profile image */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Add some space between the image and the text */
+}
+
+h1 {
+    font-size: 24px; /* Adjust the main heading size */
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px; /* Adjust the subheading size */
+    margin: 10px 0 0 0; /* Add some margin between the text */
+    font-weight: normal;
+}
+
+
 .container {
     max-width: 600px;
     margin: 0 auto;

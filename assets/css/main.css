@@ -23,6 +23,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    float: left; /* This makes the image float to the left side of the text */
+    margin-right: 15px; /* Adds some space between the image and the text */
+    width: 300px; /* Adjust the image size */
+}
+
+.text {
+    text-align: justify; /* This ensures that the text wraps neatly around the image */
+}
+
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;

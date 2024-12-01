@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section {
 .profile-container {
     display: flex;
     flex-direction: column; /* Stack the image and text vertically */
-    align-items: flex-end; /* Left both image and text horizontally */
-    text-align: right; /* Left the text */
+    align-items: center; /* Center both image and text horizontally */
+    text-align: Center; /* Center the text */
 }
 
 .profile-image {

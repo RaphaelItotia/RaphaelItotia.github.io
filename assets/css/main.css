@@ -26,8 +26,26 @@ footer, header, hgroup, menu, nav, section {
 .profile-container {
     display: flex;
     flex-direction: column; /* Stack the image and text vertically */
-    align-items: center; /* Center both image and text horizontally */
-    text-align: center; /* Center the text */
+    align-items: flex-end; /* Center both image and text horizontally */
+    text-align: right; /* Center the text */
+}
+
+.icons {
+	display:flex;
+	justify-content: flex-end;
+	gap: 10px;
+}
+
+@media (max-width: 768px) {
+	.profile-container {
+		align-items: center;
+		text-align: center;
+		margin-right: 0;
+	}
+
+	.icons {
+		justify-content: center;
+	}
 }
 
 .profile-image {
